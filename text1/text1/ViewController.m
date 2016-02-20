@@ -42,7 +42,9 @@
     [self.view addSubview:backView];
     self.view.backgroundColor = [UIColor redColor];
 
-   
+    UIView *fj = [[UIView alloc]initWithFrame:CGRectMake(28, 29, 338, 40)];
+    fj.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:fj];
     
 }
 
