@@ -1,6 +1,4 @@
-<<<<<<< 0d445e6af5c340bb0765a17af5e4f1d4b0f20bb9
-fjdkfj
-=======
+
 flkajsfjklajaskfjlkajsasjflaj
->>>>>>> test2
+
 我是试验文件,我来修改
