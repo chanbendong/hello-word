@@ -15,6 +15,8 @@
 @property (nonatomic, strong) NSString *toDate;
 @property (nonatomic, strong) NSString *fromPlace;
 @property (nonatomic, strong) NSString *toPlace;
+@property (nonatomic, strong) NSString *flightPlane;
+@property (nonatomic, strong) NSString *price;
 
 + (instancetype)instanceWithDic:(NSDictionary *)dic;
 - (instancetype)initWithDic:(NSDictionary *)dic;

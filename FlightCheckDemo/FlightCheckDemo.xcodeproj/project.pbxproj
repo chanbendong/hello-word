@@ -19,6 +19,8 @@
 		5650FD531CC8B132006CC593 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5650FD521CC8B132006CC593 /* Alert.m */; };
 		5650FD561CC8B36F006CC593 /* ZJPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5650FD551CC8B36F006CC593 /* ZJPickView.m */; };
 		5650FD591CC8C5E8006CC593 /* FlightModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5650FD581CC8C5E8006CC593 /* FlightModel.m */; };
+		5650FD601CC8E963006CC593 /* FlightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5650FD5E1CC8E963006CC593 /* FlightTableViewCell.m */; };
+		5650FD611CC8E963006CC593 /* FlightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5650FD5F1CC8E963006CC593 /* FlightTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		5650FD551CC8B36F006CC593 /* ZJPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPickView.m; sourceTree = "<group>"; };
 		5650FD571CC8C5E8006CC593 /* FlightModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightModel.h; sourceTree = "<group>"; };
 		5650FD581CC8C5E8006CC593 /* FlightModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightModel.m; sourceTree = "<group>"; };
+		5650FD5D1CC8E963006CC593 /* FlightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightTableViewCell.h; sourceTree = "<group>"; };
+		5650FD5E1CC8E963006CC593 /* FlightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightTableViewCell.m; sourceTree = "<group>"; };
+		5650FD5F1CC8E963006CC593 /* FlightTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,9 @@
 				5650FA611CC8740E006CC593 /* AppDelegate.m */,
 				5650FA631CC8740E006CC593 /* ViewController.h */,
 				5650FA641CC8740E006CC593 /* ViewController.m */,
+				5650FD5D1CC8E963006CC593 /* FlightTableViewCell.h */,
+				5650FD5E1CC8E963006CC593 /* FlightTableViewCell.m */,
+				5650FD5F1CC8E963006CC593 /* FlightTableViewCell.xib */,
 				5650FA901CC8ABB7006CC593 /* FligtViewController.h */,
 				5650FA911CC8ABB7006CC593 /* FligtViewController.m */,
 				5650FA661CC8740E006CC593 /* Main.storyboard */,
@@ -264,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5650FA6D1CC8740E006CC593 /* LaunchScreen.storyboard in Resources */,
+				5650FD611CC8E963006CC593 /* FlightTableViewCell.xib in Resources */,
 				5650FA6A1CC8740E006CC593 /* Assets.xcassets in Resources */,
 				5650FA681CC8740E006CC593 /* Main.storyboard in Resources */,
 			);
@@ -291,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5650FA651CC8740E006CC593 /* ViewController.m in Sources */,
+				5650FD601CC8E963006CC593 /* FlightTableViewCell.m in Sources */,
 				5650FD531CC8B132006CC593 /* Alert.m in Sources */,
 				5650FA921CC8ABB7006CC593 /* FligtViewController.m in Sources */,
 				5650FA621CC8740E006CC593 /* AppDelegate.m in Sources */,
@@ -520,6 +530,7 @@
 				5650FA891CC8740E006CC593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5650FA8A1CC8740E006CC593 /* Build configuration list for PBXNativeTarget "FlightCheckDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +539,7 @@
 				5650FA8C1CC8740E006CC593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5650FA8D1CC8740E006CC593 /* Build configuration list for PBXNativeTarget "FlightCheckDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +548,7 @@
 				5650FA8F1CC8740E006CC593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
