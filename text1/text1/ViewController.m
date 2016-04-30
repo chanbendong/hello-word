@@ -9,7 +9,8 @@
 #import "ViewController.h"
 #import <AVFoundation/AVFoundation.h>
 #import "frameView.h"
-@interface ViewController ()
+#import "HPGrowingTextView.h"
+@interface ViewController ()<HPGrowingTextViewDelegate>
 
 @property (nonatomic, strong) AVPlayer *player;
 
@@ -17,41 +18,41 @@
 
 @implementation ViewController
 {
-    CGRect fram;
+    NSString *fram;
+    HPGrowingTextView *textview;
+    float heightText;//文字高度
+    UIImageView *imageView;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIImageView *image = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 200, 80)];
-    
-    image.image = [UIImage imageNamed:@"1.jpg"];
 
-    
-    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(20, 50, 200, 100)];
-    view.backgroundColor = [UIColor whiteColor];
-    view.layer.cornerRadius = 8;
-    view.layer.masksToBounds = YES;
-    UIView *backView = [[UIView alloc]initWithFrame:CGRectMake(20, 50, 200, 100)];
-    backView.layer.shadowOpacity = 0.5;
-
-    backView.layer.shadowOffset = CGSizeMake(0, 3);
-    backView.layer.shadowColor = [UIColor blackColor].CGColor;
-
-    [backView addSubview:view];
-    [view addSubview:image];
-    [self.view addSubview:backView];
-    self.view.backgroundColor = [UIColor redColor];
-
-    UIView *fj = [[UIView alloc]initWithFrame:CGRectMake(28, 29, 338, 40)];
-    fj.backgroundColor = [UIColor yellowColor];
-    [self.view addSubview:fj];
-    
+    textview = [[HPGrowingTextView alloc]initWithFrame:CGRectMake(50, 50, 100, 30) textContainer:nil];
+    textview.delegate =self;
+    textview.font = [UIFont systemFontOfSize:[UIFont systemFontSize]];
+    textview.backgroundColor = [UIColor redColor];
+    imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 100, 30)];
+    imageView.image = [UIImage imageNamed:@"1.jpg"];
+    imageView.userInteractionEnabled = YES;
+    [textview addSubview:imageView];
+    [self.view addSubview:imageView];
+    [self.view addSubview:textview];
+    NSLog(@"xxx");
 }
 
-- (void)click:(UITapGestureRecognizer *)tgr
+- (void)add
 {
-   
+//    NSLog(@"view.text is %@",textview.text);
 }
+
+- (void)growingTextView:(HPGrowingTextView *)growingTextView didChangeHeight:(float)height
+{
+    CGRect frame = imageView.frame;
+    frame.size.height = height;
+    imageView.frame = frame;
+}
+
+
 
 
 - (void)didReceiveMemoryWarning {

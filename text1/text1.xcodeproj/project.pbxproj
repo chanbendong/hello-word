@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F5458C5C1C54DAEE00213F1A /* frameView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5458C5B1C54DAEE00213F1A /* frameView.m */; };
+		F56DB3CE1C9AFBFE00BBE0AC /* ViewContr.m in Sources */ = {isa = PBXBuildFile; fileRef = F56DB3CC1C9AFBFE00BBE0AC /* ViewContr.m */; };
+		F56DB3CF1C9AFBFE00BBE0AC /* ViewContr.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56DB3CD1C9AFBFE00BBE0AC /* ViewContr.xib */; };
 		F571008D1C4E95F3005CEC8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F571008C1C4E95F3005CEC8B /* main.m */; };
 		F57100901C4E95F3005CEC8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F571008F1C4E95F3005CEC8B /* AppDelegate.m */; };
 		F57100931C4E95F3005CEC8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57100921C4E95F3005CEC8B /* ViewController.m */; };
@@ -16,6 +18,8 @@
 		F571009B1C4E95F3005CEC8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57100991C4E95F3005CEC8B /* LaunchScreen.storyboard */; };
 		F57100A61C4E95F3005CEC8B /* text1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57100A51C4E95F3005CEC8B /* text1Tests.m */; };
 		F57100B11C4E95F3005CEC8B /* text1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57100B01C4E95F3005CEC8B /* text1UITests.m */; };
+		F5B1B7761C88876500EAAD1F /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B1B7751C88876500EAAD1F /* HPGrowingTextView.m */; };
+		F5B1B7791C8887E100EAAD1F /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B1B7781C8887E100EAAD1F /* HPTextViewInternal.m */; };
 		F5F8E5741C54DDAC0066E065 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F8E5731C54DDAC0066E065 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +43,9 @@
 /* Begin PBXFileReference section */
 		F5458C5A1C54DAEE00213F1A /* frameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frameView.h; sourceTree = "<group>"; };
 		F5458C5B1C54DAEE00213F1A /* frameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = frameView.m; sourceTree = "<group>"; };
+		F56DB3CB1C9AFBFE00BBE0AC /* ViewContr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewContr.h; sourceTree = "<group>"; };
+		F56DB3CC1C9AFBFE00BBE0AC /* ViewContr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewContr.m; sourceTree = "<group>"; };
+		F56DB3CD1C9AFBFE00BBE0AC /* ViewContr.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewContr.xib; sourceTree = "<group>"; };
 		F57100881C4E95F3005CEC8B /* text1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = text1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F571008C1C4E95F3005CEC8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F571008E1C4E95F3005CEC8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +62,10 @@
 		F57100AC1C4E95F3005CEC8B /* text1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = text1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57100B01C4E95F3005CEC8B /* text1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = text1UITests.m; sourceTree = "<group>"; };
 		F57100B21C4E95F3005CEC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B1B7741C88876500EAAD1F /* HPGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPGrowingTextView.h; path = text1/HPGrowingTextView.h; sourceTree = "<group>"; };
+		F5B1B7751C88876500EAAD1F /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPGrowingTextView.m; path = text1/HPGrowingTextView.m; sourceTree = "<group>"; };
+		F5B1B7771C8887E100EAAD1F /* HPTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPTextViewInternal.h; path = text1/HPTextViewInternal.h; sourceTree = "<group>"; };
+		F5B1B7781C8887E100EAAD1F /* HPTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPTextViewInternal.m; path = text1/HPTextViewInternal.m; sourceTree = "<group>"; };
 		F5F8E5731C54DDAC0066E065 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +97,10 @@
 		F571007F1C4E95F3005CEC8B = {
 			isa = PBXGroup;
 			children = (
+				F5B1B7771C8887E100EAAD1F /* HPTextViewInternal.h */,
+				F5B1B7781C8887E100EAAD1F /* HPTextViewInternal.m */,
+				F5B1B7741C88876500EAAD1F /* HPGrowingTextView.h */,
+				F5B1B7751C88876500EAAD1F /* HPGrowingTextView.m */,
 				F5F8E5731C54DDAC0066E065 /* 1.jpg */,
 				F571008A1C4E95F3005CEC8B /* text1 */,
 				F57100A41C4E95F3005CEC8B /* text1Tests */,
@@ -111,6 +126,9 @@
 				F571008F1C4E95F3005CEC8B /* AppDelegate.m */,
 				F57100911C4E95F3005CEC8B /* ViewController.h */,
 				F57100921C4E95F3005CEC8B /* ViewController.m */,
+				F56DB3CB1C9AFBFE00BBE0AC /* ViewContr.h */,
+				F56DB3CC1C9AFBFE00BBE0AC /* ViewContr.m */,
+				F56DB3CD1C9AFBFE00BBE0AC /* ViewContr.xib */,
 				F5458C5A1C54DAEE00213F1A /* frameView.h */,
 				F5458C5B1C54DAEE00213F1A /* frameView.m */,
 				F57100941C4E95F3005CEC8B /* Main.storyboard */,
@@ -253,6 +271,7 @@
 			files = (
 				F571009B1C4E95F3005CEC8B /* LaunchScreen.storyboard in Resources */,
 				F5F8E5741C54DDAC0066E065 /* 1.jpg in Resources */,
+				F56DB3CF1C9AFBFE00BBE0AC /* ViewContr.xib in Resources */,
 				F57100981C4E95F3005CEC8B /* Assets.xcassets in Resources */,
 				F57100961C4E95F3005CEC8B /* Main.storyboard in Resources */,
 			);
@@ -279,9 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B1B7791C8887E100EAAD1F /* HPTextViewInternal.m in Sources */,
 				F5458C5C1C54DAEE00213F1A /* frameView.m in Sources */,
+				F5B1B7761C88876500EAAD1F /* HPGrowingTextView.m in Sources */,
 				F57100931C4E95F3005CEC8B /* ViewController.m in Sources */,
 				F57100901C4E95F3005CEC8B /* AppDelegate.m in Sources */,
+				F56DB3CE1C9AFBFE00BBE0AC /* ViewContr.m in Sources */,
 				F571008D1C4E95F3005CEC8B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
