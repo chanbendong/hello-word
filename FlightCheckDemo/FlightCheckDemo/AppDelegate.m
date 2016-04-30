@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  text1
+//  FlightCheckDemo
 //
-//  Created by dong on 16/1/20.
-//  Copyright © 2016年 dong. All rights reserved.
+//  Created by easub on 16/4/21.
+//  Copyright © 2016年 easub. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -13,11 +13,13 @@
 @end
 
 @implementation AppDelegate
-
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
     return YES;
 }
 
