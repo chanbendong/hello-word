@@ -1,0 +1,62 @@
+#banner{
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    background-color: aqua;
+    position: relative;
+    float: left;
+
+}
+#banner_bg{
+    width: 300px;
+    height: 30px;
+    background-color: #1e1e1e;
+    opacity: 0.5;
+    z-index: 1001;
+    top: 170px;
+    position: absolute;
+
+}
+#banner_info{
+    z-index: 100;
+    bottom: -10px;
+    left: 5px;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+#banner_list a img{
+    width: 300px;
+    height: 200px;
+    top: -20px;
+    position: absolute;
+}
+#list{
+    z-index: 1003;
+    position: absolute;
+    bottom: -10px;
+    right: 5px;
+    color: brown;
+    width: 88px;
+    height: 20px;
+    list-style: none;
+
+}
+#list li{
+    text-align: center;
+    display: block;
+    width: 20px;
+    height: 15px;
+    float: left;
+    border-width: 1px;
+    border-color: antiquewhite;
+    border-style: solid;
+}
+
+#list li.on{
+    background: cornflowerblue;
+}
+

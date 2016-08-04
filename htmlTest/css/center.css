@@ -1,0 +1,110 @@
+#center{
+    width: 900px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 200px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.line{
+    margin-top: 30px;
+    height: 5px;
+    background-color: #206f96;
+}
+
+.test{
+    margin: 20px 9px;
+    color: black;
+    width: 200px;
+}
+.advertisement{
+    text-align: center;
+    width: 500px;
+    margin: 50px auto;
+}
+.video{
+    position: relative;
+}
+video{
+    display: block;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+
+}
+p{
+    opacity: 0.5;
+    background-image: url(../img/playbtn.png);
+    position: absolute;
+    margin-left: -26px;
+    margin-top: -26px;
+    width: 52px;
+    height: 52px;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+}
+
+#center-header{
+    margin-bottom: 30px;
+}
+
+
+#layout-news{
+    float: left;
+    width: 313px;
+    height: 500px;
+    margin-left: 30px;
+
+}
+
+#tab-hd{
+    width: 313px;
+    height: 29px;
+
+}
+
+span{
+    width: 102px;
+    height: 29px;
+    text-align: center;
+    display: block;
+    float: left;
+    border-color: darkred;
+    border-style: solid;
+    border-width: 0.5px;
+    padding-top: 8px;
+}
+
+#tab-hd-con a{
+    color: black;
+}
+
+#tab-shell{
+    background-color: antiquewhite;
+    width: 313px;
+    height: 500px;
+    position: relative;
+    margin-top: 20px;
+}
+#tab-img a{
+    width: 120px;
+    height: 80px;
+    margin: 5px;
+    background-image: url(../img/12.png);
+    background-size: cover;
+    float: left;
+}
+
+#tab-army,#tab-img,#tab-news{
+    position: absolute;
+    width: 313px;
+    height: 500px;
+    left: -10px;
+
+}
+
